@@ -6,11 +6,21 @@ Show how you would solve a relevant real world-problem.
 
 ## Problem
 
-OSCAL (Open Security Control Assessment Language) is a new standard for expressing a collection of cyber security compliance controls. Unfortunately, the NIST 800-171 catalog of controls is not yet available in OSCAL. We need to create the OSCAL version of the 800-171 control catalog.
+This is a real-world problem. The content needing to be manipulated is a set of cyber security controls from the NIST Special Publication 800-171. The original content was copied and pasted from a 125-page PDF into the spreadsheet in this repository. The controls in the spreadsheet need to be transformed into a specific JSON format conforming to a new control catalog format.
 
-You've been given a spreadsheet that already has the 800-171 controls 
+The desired out put data format is called OSCAL (Open Security Control Assessment Language) and is a new standard for expressing a collection of cyber security compliance controls. Unfortunately, the NIST 800-171 catalog of controls is not yet available in OSCAL. We need to create the OSCAL version of the 800-171 control catalog.
 
-This is a real-world problem. The content is cyber security controls from the NIST Special Publication 800-171. The original content was copied and pasted from a 125-page PDF into the spreadsheet. The next step is to get content into a new NIST control catalog format (called OSCAL) which happens to be fairly complex and recursive.
+Your problem is to generate JSON version...or as close as you can get to the format in the allotted time.
+
+You are being asked to only produce the control selection of the OSCAL format.
+
+OSCAL can be expressed in JSON, XML or YAML.
+
+More about OSCAL:
+
+* Example content - https://github.com/usnistgov/OSCAL/tree/master/content/nist.gov/SP800-53
+* Home page - https://pages.nist.gov/OSCAL/
+
 
 ## Instructions
 
